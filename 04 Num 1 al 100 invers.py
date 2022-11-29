@@ -7,3 +7,12 @@ while num<100:
 numlist.reverse()
 
 print(numlist)
+
+numlist=[]
+for i in range(100):
+    i+=1
+    numlist.append(i)
+
+numlist.reverse()
+
+print(numlist)
